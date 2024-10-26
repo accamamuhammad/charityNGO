@@ -14,13 +14,10 @@ const Navbar = () => {
   };
 
   return (
-    <div
-      className="w-full flex bg-mainBg
-     flex-row items-center justify-between"
-    >
+    <nav className="w-full flex px-8 py-5 bg-mainBg flex-row items-center justify-between">
       <h1 className="font-bold text-lg text-white">NGO</h1>
       <ul
-        className={`${navToggle ? "absolute px-8 text-center flex left-0 right-0 top-20 md:top-0 flex-col gap-8 items-center" : "hidden"} ${"md:flex md:flex-row md:relative gap-8 items-center"}`}
+        className={`${navToggle ? "z-50 absolute px-8 text-center flex left-0 right-0 top-14 py-5 bg-mainBg md:top-0 flex-col gap-8 items-center" : "hidden"} ${"md:flex md:flex-row md:relative gap-8 items-center"}`}
       >
         <li className={listItems}>About Us</li>
         <li className={listItems}>Explore NGOs</li>
@@ -37,7 +34,7 @@ const Navbar = () => {
         onClick={handleToggleNav}
         className="flex md:hidden cursor-pointer"
       />
-    </div>
+    </nav>
   );
 };
 
