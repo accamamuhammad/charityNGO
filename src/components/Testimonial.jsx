@@ -7,11 +7,11 @@ import L5 from "../assets/testimonialLogos/l5.jpg";
 
 const Testimonial = () => {
   return (
-    <div className="w-[90%] overflow-y-hidden bg-white overflow-x-hidden h-36 py-5 gap-4 flex flex-col items-center justify-center">
-      <h1 className="text-center font-medium">
+    <div className="w-[90%] overflow-y-hidden bg-white overflow-x-hidden h-24 py-5 gap-4 flex flex-col items-center justify-center">
+      {/* <h1 className="text-center font-medium">
         Trusted by <span className="text-yellow-400">500+</span> nonprofits
         acorss <span className="text-yellow-400">85</span> countries
-      </h1>
+      </h1> */}
       <div className="w-full flex flex-row gap-32">
         {/* animate-loop-scroll */}
         <div className="flex flex-row gap-20  items-center">

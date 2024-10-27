@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import HeroPage from "./components/HeroPage";
 import Testimonial from "./components/testimonial";
 import AboutUs from "./components/AboutUs";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <HeroPage />
         <Testimonial />
         <AboutUs />
+        <Services />
       </>
     </>
   );
