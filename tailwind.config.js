@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      colors: { mainBg: "rgb(42, 94, 84)" },
+      colors: { mainBg: "rgb(42, 94, 84)", secBg: "rgb(249, 250, 252)" },
       animation: {
         "loop-scroll": "loop-scroll 10s linear infinite",
       },
