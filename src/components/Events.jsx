@@ -27,7 +27,7 @@ const Events = () => {
           />
           <EventBox
             image={eventImage2}
-            title="Conference"
+            title="Conferenc"
             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpareprehenderit rem at dicta enim eveniet ea."
           />
           <EventBox
@@ -42,6 +42,11 @@ const Events = () => {
           />
           <EventBox
             image={eventImage2}
+            title="Conference"
+            description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpareprehenderit rem at dicta enim eveniet ea."
+          />
+          <EventBox
+            image={eventImage3}
             title="Conference"
             description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpareprehenderit rem at dicta enim eveniet ea."
           />
