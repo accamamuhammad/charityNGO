@@ -8,7 +8,7 @@ const Footer = () => {
           Join our Newsletter <br />
           Stay up-to-date with us
         </h2>
-        <div className="w-full px-8 flex flex-row gap-3">
+        <div className="w-full md:w-[600px] xl:w-[800px] px-8 flex flex-row gap-3">
           <input
             type="text"
             placeholder="Enter your email"
@@ -19,14 +19,6 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      {/* <div className="w-full py-4 bg-secBg border flex items-center flex-row">
-        <div className="flex flex-row items-center justify-center gap-6">
-          <h1 className="text-green-600 font-bold">NGO</h1>
-          <p className="text-sm">Contact us</p>
-          <p className="text-sm">Donate now</p>
-          <p className="text-sm">About us</p>
-        </div>
-      </div> */}
       <p className="absolute bottom-4 font-bold font-mono text-xs left-1/2 -translate-x-1/2 text-green-600">
         Built by accama
       </p>
