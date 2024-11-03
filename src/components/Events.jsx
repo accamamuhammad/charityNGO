@@ -7,19 +7,22 @@ import eventImage4 from "../assets/eventsImages/l4.jpg";
 
 const Events = () => {
   return (
-    <div className="w-full bg-mainBg px-8 py-7 space-y-4">
-      <h1 className="text-2xl text-white">
-        Our{" "}
-        <span className="underline underline-offset-4 decoration-yellow-300 decoration-4">
-          Exclusive events
-        </span>
-      </h1>
-      <p className="text-white opacity-75 text-sm leading-6">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-        praesentium ipsam, laboriosam ipsa eius nostrum perferendis.
-      </p>
-      <div class="flex overflow-x-auto last:overflow-y-hidden whitespace-nowrap gap-5 py-2">
-        <div class="inline-flex space-x-8">
+    <div className="w-full bg-mainBg px-8 py-7 space-y-6">
+      <div className="space-y-2.5">
+        {" "}
+        <h1 className="text-2xl text-white">
+          Our{" "}
+          <span className="underline underline-offset-4 decoration-yellow-300 decoration-4">
+            Exclusive events
+          </span>
+        </h1>
+        <p className="text-white opacity-75 text-sm leading-6">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          praesentium ipsam.
+        </p>
+      </div>
+      <div className="flex overflow-x-auto last:overflow-y-hidden whitespace-nowrap gap-5 py-2">
+        <div className="inline-flex space-x-8">
           <EventBox
             image={eventImage1}
             title="Conference"
