@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full flex px-8 py-5 bg-mainBg flex-row items-center justify-between">
+    <nav className="w-full flex pl-8 pr-6 py-5 bg-mainBg flex-row items-center justify-between">
       <h1 className="font-bold text-lg text-white">NGO</h1>
       <ul
         className={`${navToggle ? "z-50 absolute px-8 text-center flex left-0 right-0 top-14 py-5 bg-mainBg md:top-0 flex-col gap-8 items-center" : "hidden"} ${"md:flex md:flex-row md:relative gap-8 items-center"}`}
@@ -27,13 +27,17 @@ const Navbar = () => {
           Donate
         </li>
       </ul>
-      <FontAwesomeIcon
-        icon={navToggle ? faXmark : faBars}
-        color="white"
-        size="lg"
+      <div
         onClick={handleToggleNav}
-        className="flex md:hidden cursor-pointer"
-      />
+        className="bg-transparent w-10 h-10 flex items-center justify-center rounded-full"
+      >
+        <FontAwesomeIcon
+          icon={navToggle ? faXmark : faBars}
+          color="white"
+          size="lg"
+          className="flex md:hidden cursor-pointer z-40"
+        />
+      </div>
     </nav>
   );
 };
