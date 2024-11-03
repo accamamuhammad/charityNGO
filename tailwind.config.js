@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: { mainBg: "rgb(42, 94, 84)", secBg: "rgb(249, 250, 252)" },
       animation: {
-        "loop-scroll": "loop-scroll 10s linear infinite",
+        "loop-scroll": "loop-scroll 50s linear infinite",
       },
       keyframes: {
         "loop-scroll": {
